@@ -4,7 +4,7 @@ A repository hosting the submissions to the Solidity Golf Challenge for ConsenSy
 
 ## Participating
 
-Submit a keccak256 hash (or any other 32 bytes long hash with a hashing algorithm to be later specified by you) of the bytecode of your smart contract submission to the registry contract at https://rinkeby.etherscan.io/address/0xc9c22a4446b512067d509e6a6e4527e89becf0b8#code on the Rinkeby network. At the end of the contest you can specify wether each specific hash was for the golf challenge or for the gas challenge.
+Submit a keccak256 hash (or any other 32 bytes long hash with a hashing algorithm to be later specified by you) of the bytecode of your smart contract or the source code string of the smart contract submission to the registry contract at https://rinkeby.etherscan.io/address/0x1744fc0e24cba7356d19c62d9630cadfae1ea31b#code on the Rinkeby network. At the end of the contest you can specify wether each specific hash was for the golf challenge or for the gas challenge.
 
 As an alternative, you can send a PR of with a file titled <your_name>_golf.sol or <your_name>_gas_challenge.sol depending on which challenge you are entering for (you can participate in both), please note this will make your submission public and hence give advantage to other players.
 
