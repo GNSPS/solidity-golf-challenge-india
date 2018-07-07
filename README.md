@@ -17,7 +17,6 @@ The contract is an "allowance" contract. It is supposed to:
 * `A` must be set by the deployer and not at compile time.
 * At deploy time `X = 5` and after that `X = <block height at last execution> % 100`.
 * The disbursement function must only be callable once every 105 blocks. Otherwise it should revert the transaction.
-* Deployer and `A` must be different accounts.
 
 ## Rules
 
